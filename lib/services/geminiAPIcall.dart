@@ -1,7 +1,7 @@
 import 'package:google_generative_ai/google_generative_ai.dart';
 
 class geminiservice {
-  static const String apikey = "AIzaSyBPd_6y69J-oEGP1OBajomzdrWhp04PAeA";
+  static const String apikey = "put your gemini api key ";
 
   Future<String?> geminianswer(String prompt) async {
     // all implementation code is availavle on google generative ai docs
